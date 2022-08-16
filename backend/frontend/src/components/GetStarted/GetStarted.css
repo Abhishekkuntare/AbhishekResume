@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+.GetStarted > button {
+  font-size: 14px;
+  background-color: #081d2e;
+  outline: none;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+}
+.GetStarted > button > img {
+  width: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.GetStarted > button > img:hover {
+  cursor: pointer;
+  background-color: #0a2740;
+}
+.GetStarted > button > h4 {
+  font-family: "Major Mono Display", monospace;
+  text-transform: capitalize;
+  padding: 5px;
+}

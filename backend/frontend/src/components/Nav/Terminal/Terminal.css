@@ -1,0 +1,50 @@
+.terminal {
+  position: fixed;
+  bottom: 1%;
+  left: 10%;
+  height: 250px;
+  border: 1px solid #0a2740;
+  width: 80%;
+  font-family: "Fira Code", monospace;
+}
+.terminal_inner > h1 {
+  font-size: 20px;
+  color: rgb(220, 219, 219);
+  padding: 10px;
+  font-weight: 300;
+}
+.terminal_inner img {
+  padding: 10px;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  border: 5px;
+  margin-right: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.terminal_inner img:hover {
+  background-color: #0a2740;
+}
+
+.terminal > h2 {
+  font-size: 18px;
+  color: rgb(23, 193, 23);
+  padding: 10px;
+  font-weight: 300;
+}
+.terminal > h3 {
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+  font-weight: 300;
+}
+.terminal > p {
+  font-size: 13px;
+  padding: 10px;
+  color: white;
+}
+.terminal_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

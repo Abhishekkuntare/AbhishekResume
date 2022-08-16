@@ -1,0 +1,179 @@
+.StartModal {
+  font-family: "Open Sans", sans-serif;
+}
+
+.start_modal_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.start_modal_header > img {
+  width: 70px;
+  margin-right: 20px;
+}
+.start_modal_header > h1 {
+  color: #eceff0;
+  font-size: 22px;
+  font-weight: 400;
+}
+.start_modal_navDown > h2 {
+  color: #eceff0;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 27px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.start_modal_navDown > h3 {
+  color: #eceff0;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 54px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 25px;
+}
+
+.start_modal_navDown > h4 {
+  font-family: "Fira Code", monospace;
+  color: #eceff0;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 190px;
+  margin-top: 20px;
+}
+.start_modal_checkmodal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 29px;
+}
+
+.start_modal_checkmodal h1 {
+  color: #eceff0;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 25px;
+  margin-left: 14px;
+}
+.input_checkbox {
+  margin-top: 20px;
+}
+
+.start_modal_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 23px;
+}
+.start_modal_button1 {
+  border: none;
+  outline: none;
+  background-color: #7e57c2;
+  padding: 10px;
+  margin-left: 20px;
+  font-weight: 600;
+  color: white;
+  line-height: 20px;
+}
+.start_modal_button2 {
+  background-color: #3a3d41;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-left: 20px;
+  font-weight: 600;
+  color: white;
+  line-height: 20px;
+}
+.start_modal_button1:hover {
+  background-color: #916dcd;
+  cursor: pointer;
+}
+.start_modal_button2:hover {
+  background-color: #464a4f;
+  cursor: pointer;
+}
+.start_modal_button2 > span {
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+@media all and (max-width: 865px) {
+  /* width: 400px;
+    height: 251px; */
+  .start_modal_header > img {
+    width: 32px;
+    margin-right: 10px;
+  }
+  .start_modal_header > h1 {
+    color: #eceff0;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .start_modal_navDown > h2 {
+    display: none;
+  }
+  .start_modal_navDown > h3 {
+    display: none;
+  }
+  .start_modal_checkmodal h1 {
+    font-size: 11px;
+  }
+  .start_modal_navDown > h4 {
+    font-size: 11px;
+  }
+
+  .start_modal_button1 {
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-left: 0;
+  }
+  .start_modal_button2 {
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  .button_innertext {
+    font-size: 10px;
+  }
+  .start_modal_navDown > h4 {
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .start_modal_checkmodal {
+    margin-left: 0;
+  }
+}
+@media all and (max-width: 470px) {
+  .start_modal_header {
+    margin-top: 23px;
+  }
+  .start_modal_header > img {
+    width: 26px;
+  }
+  .start_modal_header > h1 {
+    color: #eceff0;
+    font-size: 12px;
+  }
+  .button_innertext {
+    font-size: 7px;
+  }
+}
+@media all and (max-width: 356px) {
+  .start_modal_checkmodal h1 {
+    font-size: 9px;
+  }
+}

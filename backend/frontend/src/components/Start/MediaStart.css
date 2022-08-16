@@ -1,0 +1,36 @@
+@media all and (max-width: 780px) {
+  .start_name_role > h1 {
+    font-size: 40px;
+  }
+  .Start {
+    margin-left: 11px;
+  }
+}
+
+@media all and (max-width: 604px) {
+  .start_row_7_3 {
+    width: 116px;
+  }
+  .start_row_4_inner3 {
+    width: 94px;
+  }
+  .right_sidebar_bottom_abhishek {
+    margin-top: 30px;
+  }
+}
+
+@media all and (max-width: 453px) {
+  .start_name_role > h1 {
+    font-size: 31px;
+    margin-left: 0;
+  }
+}
+
+@media all and (max-width: 367px) {
+  .start_name_role > h1 {
+    font-size: 25px;
+  }
+  .start_name_role > p {
+    font-size: 20px;
+  }
+}
